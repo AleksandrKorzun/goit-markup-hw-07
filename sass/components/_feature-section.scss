@@ -1,0 +1,75 @@
+.feature-section {
+  @extend .section;
+
+  &__title {
+    margin-bottom: 50px;
+
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+  }
+}
+.feature-list {
+  display: flex;
+  margin-bottom: 94px;
+  list-style: none;
+
+  &__icons {
+    display: block;
+    padding: 25px 100px;
+    margin-bottom: 30px;
+    background-color: $secondary-background;
+    border-radius: 4px;
+    text-align: center;
+  }
+  &__item {
+    width: calc((100% - 90px) / 4);
+  }
+  &__item:not(:last-child) {
+    margin-right: 30px;
+  }
+  &__title {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    line-height: 1.15;
+    text-transform: uppercase;
+  }
+  &__text {
+    color: $color_text;
+  }
+}
+.our-skills-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+
+  &__item {
+    position: relative;
+  }
+  &__item:not(:last-child) {
+    margin-right: 30px;
+  }
+  &__image {
+    display: block;
+  }
+  &__text {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    display: block;
+    padding: 27px 0;
+    margin: 0;
+    text-align: center;
+    background-color: rgba(47, 48, 58, 0.8);
+    color: $color-secondary;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+  }
+}
