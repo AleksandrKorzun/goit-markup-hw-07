@@ -1,21 +1,15 @@
-%section {
+.our-team-section {
   padding-top: 94px;
   padding-bottom: 94px;
   font-size: 14px;
   line-height: 1.71;
 }
-%title-section {
-  margin-bottom: 50px;
 
+.our-team-section__title {
+  margin-bottom: 50px;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
 }
-.our-team-section {
-  @extend %section;
-
-  &__title {
-    @extend %title-section;
-  }
-}
+/*# sourceMappingURL=our-team-section.css.map */

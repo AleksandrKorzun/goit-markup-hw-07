@@ -1,0 +1,62 @@
+.footer {
+  background-color: $footer-background;
+
+  &__container {
+    @extend .container;
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+.footer-contact {
+  margin-right: 70px;
+
+  &__logo {
+    @extend .logo;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  &__logo--footer {
+    color: $color-secondary;
+  }
+}
+.footer-contact__wrapper {
+  &--address {
+    @extend %text;
+    line-height: 1.55;
+    color: $color-secondary;
+    margin-bottom: 9px;
+  }
+  &--mail,
+  &--tel {
+    display: block;
+    font-size: 14px;
+    line-height: 1.55;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  &--mail {
+    margin-bottom: 9px;
+  }
+}
+
+.footer-social-links {
+  padding-top: 15px;
+  &__title {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $color-secondary;
+  }
+  &__list {
+    @extend .social-links;
+  }
+  &__btn {
+    @extend .social-links__btn;
+    background-color: rgba(255, 255, 255, 0.1);
+    fill: $color-secondary;
+  }
+}

@@ -1,13 +1,8 @@
 .feature-section {
-  @extend .section;
+  @extend %section;
 
   &__title {
-    margin-bottom: 50px;
-
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
+    @extend %title;
   }
 }
 .feature-list {
@@ -30,15 +25,11 @@
     margin-right: 30px;
   }
   &__title {
-    margin-bottom: 10px;
-    font-weight: bold;
-    font-size: 14px;
-    letter-spacing: 0.03em;
-    line-height: 1.15;
-    text-transform: uppercase;
+    @extend %subtitle;
   }
   &__text {
-    color: $color_text;
+    @extend %text;
+    line-height: 1.82;
   }
 }
 .our-skills-list {
@@ -62,7 +53,6 @@
     bottom: 0;
     display: block;
     padding: 27px 0;
-    margin: 0;
     text-align: center;
     background-color: rgba(47, 48, 58, 0.8);
     color: $color-secondary;

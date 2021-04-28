@@ -1,0 +1,49 @@
+.our-client-section {
+  @extend %section;
+
+  &__title {
+    @extend %title;
+  }
+  &__list {
+    display: flex;
+    justify-content: center;
+  }
+  &__items {
+    padding: 16px 32px;
+    border: 1px solid $color_icon;
+    border-radius: 4px;
+    color: $color_icon;
+    // cursor: pointer;
+    transition: color $animation, border $animation;
+  }
+  &__items:not(:last-child) {
+    margin-right: 30px;
+  }
+  &__items:hover,
+  &__items:focus {
+    color: $color-accent;
+    border: 1px solid $color-accent;
+  }
+
+  &__icon {
+    fill: currentColor;
+  }
+  &__items--one {
+    padding: 7px 33px 6px 32px;
+  }
+  &__items--two {
+    padding: 3px 33px 5px;
+  }
+  &__items--three {
+    padding: 8px 33px 10px 29px;
+  }
+  &__items--four {
+    padding: 9px 11px 10px;
+  }
+  &__items--five {
+    padding: 7px 22px 8px;
+  }
+  &__items--six {
+    padding: 7px 6px 9px;
+  }
+}

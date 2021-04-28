@@ -1,0 +1,33 @@
+%section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  font-size: 14px;
+  line-height: 1.71;
+}
+%title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+
+  margin-bottom: 50px;
+}
+%subtitle {
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  line-height: 1.15;
+  text-transform: uppercase;
+
+  margin-bottom: 10px;
+}
+%text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+
+  letter-spacing: 0.03em;
+
+  color: $color_text;
+}
