@@ -32,6 +32,11 @@
     color: $color-primary;
     text-decoration: none;
     transition: color $animation;
+
+    &:hover,
+    &:focus {
+      color: $color-accent;
+    }
   }
   &__link.current {
     position: relative;
@@ -49,10 +54,10 @@
     left: 0;
     bottom: 0;
   }
-  &__link:hover,
-  &__link:focus {
-    color: $color-accent;
-  }
+  // &__link:hover,
+  // &__link:focus {
+  //   color: $color-accent;
+  // }
 }
 
 .contact-nav {
@@ -75,6 +80,12 @@
     align-items: center;
     color: $color_text;
     text-decoration: none;
+
+    &:hover,
+    &:focus {
+      color: $color-accent;
+      fill: var(--accent-blue);
+    }
   }
 
   &__icon {
@@ -82,9 +93,9 @@
     fill: currentColor;
     transition: fill $animation, color $animation;
   }
-  &__link:hover,
-  &__link:focus {
-    color: $color-accent;
-    fill: var(--accent-blue);
-  }
+  // &__link:hover,
+  // &__link:focus {
+  //   color: $color-accent;
+  //   fill: var(--accent-blue);
+  // }
 }

@@ -42,24 +42,25 @@
     font-size: 14px;
     line-height: 1.15;
     letter-spacing: 0.01em;
+
+    transition: border $animation;
   }
   &__icon {
     position: absolute;
     bottom: 14px;
     left: 15px;
-    transition: border $animation, fill $animation;
+    transition: fill $animation;
   }
   &__label:focus-within &__icon {
-    border: 1px solid $color-accent;
     fill: $color-accent;
-    border: none;
   }
-  .label-form .form-input {
-    transition: border $animation, border-color $animation;
-  }
+  
   &__label:focus-within &__input {
     border: 1px solid $color-accent;
-    border-color: color-accent;
+    
+  }
+  &__label--area:focus-within &__input--area {
+    border: 1px solid $color-accent;
   }
 }
 
@@ -75,6 +76,12 @@
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.01em;
+    
+  }
+  &__label--area:focus-within &__input--area {
+    outline: none;
+    border: 1px solid $color-accent;
+    // border-color: $color-accent;
   }
   &__label--agreement {
     @extend .contact-form__label;

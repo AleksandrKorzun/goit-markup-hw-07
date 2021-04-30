@@ -13,17 +13,23 @@
     border: 1px solid $color_icon;
     border-radius: 4px;
     color: $color_icon;
-    // cursor: pointer;
+    cursor: pointer;
     transition: color $animation, border $animation;
+
+    &:hover,
+    &:focus {
+      color: $color-accent;
+      border: 1px solid $color-accent;
+    }
   }
   &__items:not(:last-child) {
     margin-right: 30px;
   }
-  &__items:hover,
-  &__items:focus {
-    color: $color-accent;
-    border: 1px solid $color-accent;
-  }
+  // &__items:hover,
+  // &__items:focus {
+  //   color: $color-accent;
+  //   border: 1px solid $color-accent;
+  // }
 
   &__icon {
     fill: currentColor;

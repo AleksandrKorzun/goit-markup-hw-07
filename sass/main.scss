@@ -1,12 +1,14 @@
 @import 'utils/variables';
+@import 'utils/modern-normalize';
 @import 'utils/base';
 @import 'components/placeholder';
 @import 'components/container';
+@import 'components/section';
 @import 'components/header';
 @import 'components/logo';
 @import 'components/hero-section';
 @import 'components/feature-section';
-@import 'components/our-team-section';
+@import 'components/_our-team-section.scss';
 @import 'components/card-team';
 @import 'components/social-links';
 @import 'components/our-client-section';

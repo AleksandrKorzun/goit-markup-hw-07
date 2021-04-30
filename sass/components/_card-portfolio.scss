@@ -65,8 +65,8 @@
     transition: transform $animation, box-shadow $animation, color $animation;
   }
 }
-.portfolio-image-wrapper:hover .portfolio-image-wrapper__text,
-.portfolio-image-wrapper:focus .portfolio-image-wrapper__text {
+.portfolio-card-wrapper:hover .portfolio-image-wrapper__text,
+.portfolio-card-wrapper:focus .portfolio-image-wrapper__text {
   transform: scaleY(1);
   opacity: 0.9;
 }

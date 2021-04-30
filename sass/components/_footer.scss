@@ -30,6 +30,7 @@
   }
   &--mail,
   &--tel {
+    @extend %text;
     display: block;
     font-size: 14px;
     line-height: 1.55;

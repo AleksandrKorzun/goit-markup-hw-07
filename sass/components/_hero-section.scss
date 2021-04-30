@@ -19,7 +19,7 @@
   }
   &__title {
     margin: 0 0 30px;
-
+    font-family: Roboto, sans-serif;
     font-weight: 900;
     font-size: 44px;
     line-height: 137%;
@@ -36,6 +36,7 @@
     width: 200px;
     border: transparent;
     border-radius: 4px;
+    cursor: pointer;
     padding: 10px 32px;
   }
 }
