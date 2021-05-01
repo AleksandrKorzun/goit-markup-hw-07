@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAcA,AAdA,iBAciB,AAdR,CACP,WAAW,CAAE,IAAI,CACjB,cAAc,CAAE,IAAI,CACpB,SAAS,CAAE,IAAI,CACf,WAAW,CAAE,IAAI,CAClB,AAYE,AAXH,wBAWU,AAXK,CACb,aAAa,CAAE,IAAI,CAEnB,WAAW,CAAE,IAAI,CACjB,SAAS,CAAE,IAAI,CACf,WAAW,CAAE,IAAI,CACjB,UAAU,CAAE,MAAM,CACnB",
-    "sources": [
-        "../sass/components/our-team-section.scss"
-    ],
-    "names": [],
-    "file": "our-team-section.min.css"
-}
